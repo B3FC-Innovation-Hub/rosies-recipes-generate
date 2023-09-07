@@ -1,2 +1,2 @@
-# rosies-recipes-process
-Component which turns raw recipes into fully-processed steps
+# rosies-recipes-generate
+API used to combine multiple recipies

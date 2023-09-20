@@ -37,7 +37,7 @@ public class Function {
         if (name == null) {
             return request.createResponseBuilder(HttpStatus.BAD_REQUEST).body("Please pass a name on the query string or in the request body").build();
         } else {
-            return request.createResponseBuilder(HttpStatus.OK).body("Hello, " + name + " I am testing a new change on the Generate API").build();
+            return request.createResponseBuilder(HttpStatus.OK).body("Hello, " + name + " I am testing if this change is showing on the dev slot :) ").build();
         }
     }
 }
